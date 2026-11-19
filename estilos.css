@@ -5,11 +5,19 @@ nav {
 
 img{
     background-color: aqua;
+    
 }
 
 a {
-    color:white;
+    color: lime;
+   
 }
+
+a:hover{
+    background-color: blue;
+}
+
+
 
 nav:hover{
     background-color: cadetblue;
@@ -22,6 +30,7 @@ nav:hover{
 img:hover{
     padding: 1%;
     background-color: red;
+    margin:1%;
 }
 
 p{
@@ -133,4 +142,41 @@ footer{
  gap: 24px;
  justify-content: center;
  align-items: end;
+}
+
+.contactos{
+     flex-wrap: wrap;
+ gap: 24px;
+ justify-content: center;
+ align-items: end;
+
+}
+
+.tarjeta10{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex: 1 1 200px;
+}
+
+.tarjeta11{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex: 1 1 200px;
+}
+    
+.tarjeta12{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex: 1 1 200px;
+}
+    
+
+.tarjeta13{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex: 1 1 200px;
 }
